@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cifp SYSTEM "cifp.dtd">
+<cifp>
+    <alumne id="1">
+        <nom>Joan</nom>
+        <llinatges>Garcia Pons</llinatges>
+        <data_naixement>2005-03-12</data_naixement>
+        <correu>joan.garcia@example.com</correu>
+        <telefon>600123123</telefon>
+        <adreça>Carrer Major 1, Inca</adreça>
+        <data_matricula>2023-09-10</data_matricula>
+        <curs>DAM</curs>
+    </alumne>
+
+    <alumne id="2">
+        <nom>Maria</nom>
+        <llinatges>Llompart Serra</llinatges>
+        <data_matricula>2024-09-12</data_matricula>
+        <curs>SMX</curs>
+    </alumne>
+
+    <professor id="10">
+        <nom>Pere</nom>
+        <llinatges>Riera Moll</llinatges>
+        <data_naixement>1980-01-01</data_naixement>
+        <correu>pere.riera@example.com</correu>
+        <data_incorporació>2015-09-01</data_incorporació>
+        <departament>Informàtica</departament>
+
+        <assignatura id_assignatura="100" cicle="DAM">
+            <nom_assignatura>Programació</nom_assignatura>
+            <data_inici>2024-09-12</data_inici>
+            <data_final>2025-06-20</data_final>
+        </assignatura>
+
+        <assignatura id_assignatura="101" cicle="DAW">
+            <nom_assignatura>Llenguatges de marques</nom_assignatura>
+        </assignatura>
+    </professor>
+</cifp>
