@@ -1,0 +1,43 @@
+{
+  "$schema": "https://example.com/cifp.schema.json",
+  "alumne": [
+    {
+      "id": 1,
+      "nom": "Joan",
+      "llinatges": "Garcia Pons",
+      "data_naixement": "2005-03-12",
+      "correu": "joan.garcia@example.com",
+      "telefon": "600123123",
+      "adreça": "Carrer Major 1, Inca",
+      "data_matricula": "2023-09-10",
+      "curs": "DAM"
+    }
+  ],
+  "professor": [
+    {
+      "id": 10,
+      "nom": "Pere",
+      "llinatges": "Riera Moll",
+      "data_naixement": "1980-01-01",
+      "correu": "pere.riera@example.com",
+      "telefon": "699999999",
+      "adreça": "Carrer Nou 5, Inca",
+      "data_incorporació": "2015-09-01",
+      "departament": "Informàtica",
+      "assignatura": [
+        {
+          "id_assignatura": 100,
+          "nom_assignatura": "Programació",
+          "cicle": "DAM",
+          "data_inici": "2024-09-12",
+          "data_final": "2025-06-20"
+        },
+        {
+          "id_assignatura": 101,
+          "nom_assignatura": "Llenguatges de marques",
+          "cicle": "DAW"
+        }
+      ]
+    }
+  ]
+}
