@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cifp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="cifp.xsd">
+
+    <alumne id="1">
+        <nom>Joan</nom>
+        <llinatges>Garcia Pons</llinatges>
+        <data_naixement>2005-03-12</data_naixement>
+        <correu>joan.garcia@example.com</correu>
+        <telefon>600123123</telefon>
+        <adreça>Carrer Major 1, Inca</adreça>
+        <data_matricula>2023-09-10</data_matricula>
+        <curs>DAM</curs>
+    </alumne>
+
+    <professor id="10">
+        <nom>Pere</nom>
+        <llinatges>Riera Moll</llinatges>
+        <data_naixement>1980-01-01</data_naixement>
+        <correu>pere.riera@example.com</correu>
+        <telefon>699999999</telefon>
+        <adreça>Carrer Nou 5, Inca</adreça>
+        <data_incorporació>2015-09-01</data_incorporació>
+        <departament>Informàtica</departament>
+        <assignatura id_assignatura="100" cicle="DAM">
+            <nom_assignatura>Programació</nom_assignatura>
+            <data_inici>2024-09-12</data_inici>
+            <data_final>2025-06-20</data_final>
+        </assignatura>
+    </professor>
+
+</cifp>
